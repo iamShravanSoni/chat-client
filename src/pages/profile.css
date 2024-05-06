@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #282828;
+}
+.container-all-user {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  padding: 25px;
+}
+.container-all-user .content-user  {
+  max-width: 450px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  border-radius: 25px;
+}
+.container-all-user .content-user .banner-user img {
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 25px 25px 0 0;
+  border: 1px solid red;
+}
+.content-user .image-user {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  border: 1px solid blue;
+  position: relative;
+}
+.content-user .image-user img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -75px;
+  margin-left: 25px;
+  margin-right: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .6);
+}
+.content-user .content-info-user {
+  background: 'whitesmoke';
+  border-radius: 0 0 25px 25px;
+  padding: 25px;
+}
+.content-user .content-info-user h2 {
+  text-align: center;
+  font-size: 1.40em;
+}
+.content-user .content-info-user h2 span{
+  font-weight: normal;
+}
+.content-user .content-info-user .info-user {
+  text-align: center;
+  margin: 25px;
+}
+.content-user .content-info-user .info-user p {
+  margin-bottom: 10px;
+}
+.content-user .content-info-user .info-user p i {
+  margin-right: 10px;
+  color: #19b6d3;
+}
+.content-user .content-info-user .btn-group {
+  display: flex;
+  justify-content: center;
+}
+.content-user .content-info-user .btn-group .deleted {
+  background: #daa520;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: all 600ms;
+}
+.content-user .content-info-user .btn-group .deleted:hover {
+  background: #bb4315;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  transform: translate()
+}
+.content-user .content-info-user .btn-group .edit {
+  background: #19b6d3;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 600ms;
+}
+.content-user .content-info-user .btn-group .edit:hover {
+  background: #009975;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+.content-user .content-info-user .btn-group .edit i, 
+.content-user .content-info-user .btn-group .deleted i {
+  color: #fff;
+  margin-right: 10px;
+}
