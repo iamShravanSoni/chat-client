@@ -185,7 +185,6 @@ const Groups = () => {
             position: "absolute",
             top: "2rem",
             left: "2rem",
-            bgcolor: matBlack,
             color: "white",
             ":hover": {
               bgcolor: "rgba(0,0,0,0.7)",
